@@ -1,0 +1,23 @@
+@media(min-width:1240px){
+
+}
+@media(max-width:1239px){
+    #col{
+        display: block;
+    }
+    .col-left{
+        width: 100%;
+    }
+    .col-right{
+        width: 100%;
+    }
+    .widget-right{
+        margin-left: 0;
+    }
+    .left-content-text{
+        width: 18%;
+        float: left;
+    }
+}
+
+

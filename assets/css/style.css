@@ -12,6 +12,7 @@ body{
     width: 50%;
     margin: 20px auto;
     min-width: 350px;
+    align-items: center;
 }
 #header{
     background-color: #2D694F;
@@ -51,12 +52,15 @@ body{
     margin: 10px 0;
     border-radius: 4px;
 }
-#contact , #skill , #certificate , #reference, #introduce , #experience , 
+/* #contact , #skill , #certificate , #reference, #introduce , #experience , 
 #education, #activity, #project{
     padding: 10px 0;
     position: relative;
+} */
+.element{
+    padding: 10px 0;
+    position: relative;
 }
-
 .title{
     background-color: #2D694F;
     padding: 0 13px;
@@ -64,7 +68,6 @@ body{
     border-top-right-radius: 999rem;
     border-bottom-right-radius: 999rem;
     position: relative;
-    font-size: 15px;
     color: #fff; 
 }
 .title-right{
@@ -74,9 +77,13 @@ body{
     font-weight: 250;
     color: #2D694F; 
 }
-#content-contact , #content-skill , #content-certificate , 
+/* #content-contact , #content-skill , #content-certificate , 
 #content-language , #content-reference , #content-introduce,
 #content-experience, #content-education, #content-activity, #content-project{
+    padding-top: 10px;
+    padding-left: 20px;
+} */
+.format-content-element{
     padding-top: 10px;
     padding-left: 20px;
 }
@@ -87,6 +94,8 @@ body{
 .sub-content{
     display: flex;
     padding: 2px 0;
+    font-size: 15px;
+    color: #BBBBBB;
 }
 .left-content{
     width: 10%;
@@ -104,9 +113,10 @@ progress{
     width: 70%;
     float: left;
     margin-top: 5px;
+    padding-left: 20px;
 }
 .left-content-text{
-    width: 22%;
+    width: 15%;
     float: left;
 }
 .col-right{

@@ -1,154 +1,168 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    width: 100%;
-    background-color: #555555;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#main{
-    width: 50%;
-    margin: 20px auto;
-    min-width: 350px;
-    align-items: center;
-}
-#header{
-    background-color: #2D694F;
-    /* padding: 20px auto; */
-    height: 226px;
+body {
+  width: 100%;
+  background-color: #555555;
 }
 
-#container-header{
-    display: flex;
-    position: relative;
+#main {
+  width: 50%;
+  margin: 20px auto;
+  min-width: 350px;
+  align-items: center;
 }
-#container-header #ava-group{
-    position: relative;
-    overflow: hidden;
-    margin: 30px 30px;
-    max-width: 150px;
+
+#header {
+  background-color: #2D694F;
+  height: 226px;
 }
-#ava-group #ava{
-    max-height: 150px;
-    border-radius: 50%;
+
+#container-header {
+  display: flex;
+  position: relative;
 }
-#container-header #infor-group{
-    display: flex;
-    flex-direction: column;
-        
+
+#container-header #ava-group {
+  position: relative;
+  overflow: hidden;
+  margin: 30px 30px;
+  max-width: 150px;
 }
-#col{
-    background-color: #DDDDDD;
-    display: flex;
-    flex: 1;
-    padding: 10px 30px;
-    padding-bottom: 38px;
+
+#ava-group #ava {
+  max-height: 150px;
+  border-radius: 50%;
 }
-.col-left{
-    background-color: #fff;
-    width: 35%;
-    margin: 10px 0;
-    border-radius: 4px;
+
+#container-header #infor-group {
+  display: flex;
+  flex-direction: column;
+
 }
-/* #contact , #skill , #certificate , #reference, #introduce , #experience , 
-#education, #activity, #project{
-    padding: 10px 0;
-    position: relative;
-} */
-.element{
-    padding: 10px 0;
-    position: relative;
+
+#col {
+  background-color: #DDDDDD;
+  display: flex;
+  flex: 1;
+  padding: 10px 30px;
+  padding-bottom: 38px;
 }
-.title{
-    background-color: #2D694F;
-    padding: 0 13px;
-    width: fit-content;
-    border-top-right-radius: 999rem;
-    border-bottom-right-radius: 999rem;
-    position: relative;
-    color: #fff; 
+
+.col-left {
+  background-color: #fff;
+  width: 35%;
+  margin: 10px 0;
+  border-radius: 4px;
 }
-.title-right{
-    background-color: #fff;
-    padding: 0 30px;
-    width: fit-content;
-    font-weight: 250;
-    color: #2D694F; 
+
+.element {
+  padding: 10px 0;
+  position: relative;
 }
-/* #content-contact , #content-skill , #content-certificate , 
-#content-language , #content-reference , #content-introduce,
-#content-experience, #content-education, #content-activity, #content-project{
-    padding-top: 10px;
-    padding-left: 20px;
-} */
-.format-content-element{
-    padding-top: 10px;
-    padding-left: 20px;
+
+.title {
+  background-color: #2D694F;
+  padding: 0 13px;
+  width: fit-content;
+  border-top-right-radius: 999rem;
+  border-bottom-right-radius: 999rem;
+  position: relative;
+  color: #fff;
 }
-.content{
-    display: flex;
-    padding: 4px 0;
+
+.title-right {
+  background-color: #fff;
+  padding: 0 30px;
+  width: fit-content;
+  font-weight: 250;
+  color: #2D694F;
 }
-.sub-content{
-    display: flex;
-    padding: 2px 0;
-    font-size: 15px;
-    color: #BBBBBB;
+
+.format-content-element {
+  padding-top: 10px;
+  padding-left: 20px;
 }
-.left-content{
-    width: 10%;
-    float: left;
+
+.content {
+  display: flex;
+  padding: 4px 0;
 }
-.right-content{
-    width: 80%;
-    float: left;
+
+.sub-content {
+  display: flex;
+  padding: 2px 0;
+  font-size: 15px;
+  color: #BBBBBB;
 }
-progress{
-    border-radius: 0;
-    height: 5px;
+
+.left-content {
+  width: 10%;
+  float: left;
 }
-.right-content-text{
-    width: 70%;
-    float: left;
-    margin-top: 5px;
-    padding-left: 20px;
+
+.right-content {
+  width: 80%;
+  float: left;
 }
-.left-content-text{
-    width: 15%;
-    float: left;
+
+progress {
+  border-radius: 0;
+  height: 5px;
 }
-.col-right{
-    width: 65%;
+
+.right-content-text {
+  width: 70%;
+  float: left;
+  margin-top: 5px;
+  padding-left: 20px;
 }
-.widget-right{
-    background-color: #fff;
-    margin: 10px 0;
-    margin-left: 20px;
-    border-radius: 4px;
+
+.left-content-text {
+  width: 15%;
+  float: left;
 }
-.space{
-    width: 15px;
-    height: 40px;
-    position: absolute;
-    background-color: #2D694F;
-    top: 0;
+
+.col-right {
+  width: 65%;
 }
+
+.widget-right {
+  background-color: #fff;
+  margin: 10px 0;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.space {
+  width: 15px;
+  height: 40px;
+  position: absolute;
+  background-color: #2D694F;
+  top: 0;
+}
+
 .diamond {
-    transform: rotate(45deg) translateY(-50%);
-    margin-right: 10px;
-    margin-top: 7px;
-    align-self: baseline;
-    font-size: 8px;
-    color: #2D694F;
+  transform: rotate(45deg) translateY(-50%);
+  margin-right: 10px;
+  margin-top: 7px;
+  align-self: baseline;
+  font-size: 8px;
+  color: #2D694F;
 }
-.right-content-col-right{
-    width: 30%;
-    float: left;
+
+.right-content-col-right {
+  width: 30%;
+  float: left;
 }
-.left-content-col-right{
-    width: 70%;
-    float: left;
+
+.left-content-col-right {
+  width: 70%;
+  float: left;
 }
+
+
 

@@ -111,19 +111,22 @@ body {
 
 progress {
   border-radius: 0;
-  height: 5px;
+  height: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background: #DDDDDD;
 }
 
 .right-content-text {
-  width: 70%;
+  width: 90%;
   float: left;
-  margin-top: 5px;
-  padding-left: 20px;
 }
 
 .left-content-text {
-  width: 15%;
+  width: 80%;
   float: left;
+  display: block;
 }
 
 .col-right {
